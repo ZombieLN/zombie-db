@@ -271,9 +271,9 @@ rowId: prefix +'autovoice off'
 ]}	
 ]
 
-const caption = `*_⚙️ VISPER SETTINGS INFO ⚙️_*`
+const caption = `*_⚙️ ZOMBIE SETTINGS INFO ⚙️_*`
 const listMessage = {
-text: `*_⚙️ VISPER SETTINGS INFO ⚙️_*
+text: `*_⚙️ ZOMBIE SETTINGS INFO ⚙️_*
 
 `,
 	
@@ -905,7 +905,7 @@ if (!isMe && !isSudo) return await reply('*OWNER COMMAND ⛔*')
 let text = q;
 
  
-let caption = `*\`↔️ VISPER CHANGE DATABASE INFO ↔️\`*
+let caption = `*\`↔️ ZOMBIE CHANGE DATABASE INFO ↔️\`*
 
 *┌──────────────────┐*
 *├ 🔮Input :* ${text}
@@ -935,7 +935,7 @@ const buttons = [
         title: "Change Database :)",
         sections: [
           {
-            title: "VISPER-MD-DATABASE-INFO",
+            title: "ZOMBIE-MD-DATABASE-INFO",
             rows: [
              { title: "Change bot prefix", "description":"", id: prefix + 'setprefix ' + text },
              { title: "Change bot alive", "description":"", id: prefix + 'setalive ' + text },

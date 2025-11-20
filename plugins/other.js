@@ -25,10 +25,10 @@ async (conn, mek, m, {
 }) => {
     try {
         
-        const response = await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json");
+        const response = await axios.get("https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/main_var.json");
         const details = response.data;
 
-        const result = `*🧿VISPER-MD🧿*
+        const result = `*🧿ZOMBIE-MD🧿*
 
 \`🔖 Github:\` ${details.reponame}
 
@@ -36,7 +36,7 @@ async (conn, mek, m, {
 
 \`⚕️ Support Group:\` ${details.supglink}
 
-\`📡 Version:\` *4.0.0*`;
+\`📡 Version:\` *2.0.0*`;
 
         reply(result);
     } catch (e) {
@@ -155,8 +155,8 @@ const session = `${session_id}`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363421953535024@newsletter',
+                        newsletterName: 'ZOMBIE-MD',
                         serverMessageId: 101
                     }
                 }
@@ -171,8 +171,8 @@ await conn.sendMessage(
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363421953535024@newsletter',
+                        newsletterName: 'ZOMBIE-MD',
                         serverMessageId: 101
                     }
                 }
@@ -218,7 +218,7 @@ async (conn, mek, m, { from, reply, args }) => {
                           `📝 *Subject:* ${msg.subject}\n` +
                           `⏰ *Date:* ${new Date(msg.date).toLocaleString()}\n\n` +
                           `📄 *Content:*\n${msg.body}\n\n ` +
-                          `*㋛ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙽𝙰𝙳𝙴𝙴𝙽 〽️𝙳*`;
+                          `*☫ 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢 𝙳𝚒𝚕𝚒𝚜𝚑𝚊𝚃𝚎𝚌𝚑 ㋡*`;
         });
 
         await reply(messageList);
@@ -348,7 +348,7 @@ try{
     })
     
     onlineList += `\n*╰──────────●●►*\n`
-    onlineList += `*⚡VISPER-MD*`
+    onlineList += `*⚡ZOMBIE-MD*`
     
     // Send the message with mentions
     await conn.sendMessage(from, {
@@ -402,7 +402,7 @@ try{
     })
     
     membersMessage += `\n*╰──────────●●►*\n`
-    membersMessage += `*⚡VISPER-MD*`
+    membersMessage += `*⚡ZOMBIE-MD*`
     
     // Send the message with mentions
     await conn.sendMessage(from, {
@@ -441,15 +441,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                         `*🍱 Username:* ${result.username}\n\n${config.FOOTER}`;
 
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/vp0t1w.png' },
+            image: { url: 'https://files.catbox.moe/6qxk37.jpg' },
             caption,
             contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363380090478709@newsletter',
-                    newsletterName: 'VISPER-MD',
+                    newsletterJid: '120363421953535024@newsletter',
+                    newsletterName: 'ZOMBIE-MD',
                     serverMessageId: 143
                 }
             }

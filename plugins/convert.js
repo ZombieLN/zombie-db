@@ -230,7 +230,7 @@ try{
       },
     });
 await pipeline(rbg, fs.createWriteStream(namePng + ".png"));
-let dat = `*🌆 VISPER-MD BACKGROUND REMOVER 🌆*
+let dat = `*🌆 ZOMBIE-MD BACKGROUND REMOVER 🌆*
 `
 const buttons = [
 {buttonId: prefix + 'rbgi ' + namePng + ".png", buttonText: {displayText: 'IMAGE'}, type: 1},
@@ -279,7 +279,7 @@ try{
 await conn.sendMessage(from, { react: { text: '📥', key: mek.key }})
 let sticker = new Sticker(q, {
   pack: pushname, // The pack name
-  author: 'ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ•', // The author name
+  author: 'Ｋɪɴɢ Ｄɪʟɪᴤʜᴀ', // The author name
   type: q.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
   categories: ["🤩", "🎉"], // The sticker category
   id: "12345", // The sticker id
@@ -650,7 +650,7 @@ async (conn, mek, m, { from, args, reply }) => {
         const keywords = packageData.keywords ? packageData.keywords.join(", ") : "No keywords provided";
         // Send the package details as a reply (without image)
         let replyText = `
-*\`💃 VISPER NPM SEARCH 💃\`*
+*\`💃 ZOMBIE NPM SEARCH 💃\`*
 
 *┌──────────────────*
 *├ 🦑 Npm name :* ${packageName}

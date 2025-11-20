@@ -134,7 +134,7 @@ async (conn, mek, m, { from, q, reply, l }) => {
             return await reply("*❌ Failed to fetch file from Google Drive!*");
         }
 
-        let txt = `*🗃️ VISPER GDRIVE DOWNLOADER 🗃️*
+        let txt = `*🗃️ ZOMBIE GDRIVE DOWNLOADER 🗃️*
 
 *┌──────────────────*
 *├ 🗃️ Name :* ${res.result.title}
@@ -323,7 +323,7 @@ async(conn, mek, m, {
     const result = results.videos[0];
     const wm = config.FOOTER;
 
-    let caption = `\`🎧 🅅🄸🅂🄿🄴🅁 🅂🄾🄽🄶 🄳🄾🅆🄽🄻🄾🄳🄴🅁 🎧\`	
+    let caption = `\`🎧 ZOMBIE SONG DOWNLOAD 🎧\`	
 *┌────────────────────┐*
 *├ \`🎶 Title\` : ${result.title}*
 *├ \`🐼 Views\` : ${result.views}*
@@ -454,7 +454,7 @@ async (conn, mek, m, {
     const result = results.videos[0];
     const wm = config.FOOTER;
 
-    let caption = `🎶 *VISPER SONG DOWNLOADER* 🎶
+    let caption = `🎶 *ZOMBIE SONG DOWNLOADER* 🎶
 
 ┌────────────────────┐
 │ 🎵 *Title:* ${result.title}
@@ -598,7 +598,7 @@ async (conn, mek, m, { from, q, reply }) => {
 });
 
 cmd({
-    pattern: "alex",
+    pattern: "dilo",
     alias: ["ytsong"],
     use: '.song lelena',
     react: "🎧",
@@ -649,7 +649,7 @@ await conn.buttonMessage(from, buttonMessage, mek)
 
 
 cmd({
-    pattern: "alexaa",
+    pattern: "sommy",
     react: "🔮",
     dontAddCommandList: true,
     filename: __filename
@@ -675,7 +675,7 @@ cmd({
 > *🫟සිංදු පිස්සෝ 😼🖤|🇱🇰*`
 
 await conn.sendMessage(
-  `120363422174267666@newsletter`, 
+  `120363421953535024@newsletter`, 
   { 
     image: { url: result.thumbnail }, 
     caption: caption
@@ -692,7 +692,7 @@ await conn.sendMessage(
 
 
 cmd({
-    pattern: "alexa",
+    pattern: "moonyy",
     react: "⬇️",
     dontAddCommandList: true,
     filename: __filename
@@ -707,7 +707,7 @@ cmd({
 await conn.sendMessage(from, { react: { text: '⬆️', key: mek.key } });
 		    
 		        
-                await conn.sendMessage(`120363422174267666@newsletter`, { 
+                await conn.sendMessage(`120363421953535024@newsletter`, { 
   audio: { url: prog.url }, 
   mimetype: 'audio/mpeg', 
   ptt: true 
@@ -818,7 +818,7 @@ try{
 
 const mov = await fetchJson(`https://darksadasyt-tiktokdl.vercel.app/api/tiktok?q=${q}`)
 
-let caption = `*\`🪺 VISPER TIK TOK DOWNLODER 🪺\`*
+let caption = `*\`🪺 ZOMBIE TIK TOK DOWNLODER 🪺\`*
 
 *┌──────────────────*
 *├ \`🎩 Title\` :* ${mov.title}
@@ -1040,7 +1040,7 @@ cmd({
 
         const duration = sadas.result.duration || 'Unknown';
 
-        const caption = `\`🏮 VISPER FB DOWNLOADER 🏮\`\n\n` +
+        const caption = `\`🏮 ZOMBIE FB DOWNLOADER 🏮\`\n\n` +
                    `*┌──────────────────*\n` +
                    `*├ \`🐼 Title:\`* Facebook video\n` +
                    `*├ \`⏱️ Duration:\`* ${duration}\n` +
@@ -1411,7 +1411,7 @@ async(conn, mek, m,{from, q, reply}) => {
     const data = await download(q)
     if (!data || !data.dllink) return reply("❌ APK not found!")
 
-    let listdata = `*\`🗃️ VISPER APK DOWNLOADER 🗃️\`*
+    let listdata = `*\`🗃️ ZOMBIE APK DOWNLOADER 🗃️\`*
 
 *┌──────────────────╮*
 *├ \`📚 Name\` :* ${data.name}
@@ -1461,7 +1461,7 @@ try{
     var results = await yts(url);
     let wm = config.FOOTER
     var result = results.videos[0]
-     let caption = `*📹 🅅🄸🅂🄿🄴🅁 🅅🄸🄳🄴🄾 🄳🄾🅆🄽🄻🄾🄰🄳🄴🅁 📹*
+     let caption = `*📹 ZOMBIE VIDEO DOWNLOAD 📹*
 *┌─────────────────────┐*
 *├ \`📹 Title\` : ${result.title}* 
 *├ \`🐼 Views\` : ${result.views}*
@@ -2096,7 +2096,7 @@ try{
 await conn.sendMessage(from, { react: { text: '⬇️', key: mek.key }})
 if(!q) return await conn.sendMessage(from , { text: '*🔥 Enter mediafire link...*' }, { quoted: mek } ) 
 const data = await fetchJson(`https://mfire-dl.vercel.app/mfire?url=${q}`)
-let listdata = `*\`🔥 𝙑𝙄𝙎𝙋𝙀𝙍 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀 𝘿𝙊𝙒𝙉𝙇𝙊𝘿𝙀𝙍 🔥\`*
+let listdata = `*\`🔥 ZOMBIE MEDIAFIRE CENTER 🔥\`*
 
 *┌──────────────────╮*
 *├ \`🔥 Name\` :* ${data.fileName}
@@ -2360,7 +2360,7 @@ async (conn, m, mek, { from, q, isMe, prefix, reply }) => {
 try{
 
 let res = await fetchJson(`https://ph-slow-dl.vercel.app/api/analyze?q=${q}`)
-let msg = `*\`🔞 𝙑𝙄𝙎𝙋𝙀𝙍 𝙋𝙊𝙍𝙉𝙃𝙐𝘽 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 🔞\`*
+let msg = `*\`🔞 𝙋𝙊𝙍𝙉𝙃𝙐𝘽 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 🔞\`*
 
 *┌──────────────────*
 *├ \`❄️ Title\` :* ${res.video_title}
@@ -2503,7 +2503,7 @@ async (conn, mek, m, { from, prefix, l, quoted, body, isCmd, command, args, q, i
             return await reply("❌ Could not retrieve the song. Please check your query.");
         }
 
-        let caption = `*\`🎼 🅅🄸🅂🄿🄴🅁 🅂🄿🄾🅃🄸🄵🅈 🄳🄾🅆🄽🄻🄾🄰🄳🄴🅁 🎼\`*
+        let caption = `*\`🎼 🅂🄿🄾🅃🄸🄵🅈 🄳🄾🅆🄽🄻🄾🄰🄳🄴🅁 🎼\`*
 *┌──────────────────╮*
 *├ \`🎶 Title:\`* ${data.title}
 *├ \`🧑‍🎤 Artist:\`* ${data.artist}
@@ -2679,7 +2679,7 @@ async (conn, mek, m, { from, prefix, q, reply }) => {
             return await reply('⚠️ Failed to retrieve valid song data. Please check your query or try again later.');
         }
 
-        const caption = `*\`🎼 VISPER SOUNDCLOUD DOWNLOADER 🎼\`*\n\n*🎶 Title:* ${data.title}\n*🔗 URL:* ${q}`;
+        const caption = `*\`🎼 ZOMBIE SOUNDCLOUD DOWNLOADER 🎼\`*\n\n*🎶 Title:* ${data.title}\n*🔗 URL:* ${q}`;
 
         const buttons = [
             {
@@ -2765,7 +2765,7 @@ cmd({
 \`👁️ *Views:*\` ${result.views}
 \`⏱️ *Duration:*\` ${result.duration}
 
-_🎧 Powered by VISPER Music_`;
+_🎧 Powered by ZOMBIE Music_`;
 
                 // Send thumbnail using buffer
                 try {

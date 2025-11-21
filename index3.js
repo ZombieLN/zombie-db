@@ -157,7 +157,7 @@ async function connect() {
   var { connectdb: _0x1825c7, updb: _0x10f700 } = require(_0x3fec18(0x1ff));
   (await _0x1825c7(),
     await _0x10f700(),
-    console[_0x3fec18(0x1a1)]("ZOMBIE\x20CONNECTED\x20✅"),
+    console[_0x3fec18(0x1a1)]("RED_MOON\x20CONNECTED\x20✅"),
     await _0x21b350(0xbb8),
     await connectToWA());
 }
@@ -227,7 +227,7 @@ async function connectToWA() {
           _0x5229e7(0x296)
         ] !== DisconnectReason[_0x5229e7(0x19d)];
       (console[_0x5229e7(0x1a1)](
-        "âŒ\x20Disconnected:\x20" +
+        "❌\x20Disconnected:\x20" +
           (_0x2e4a41?.[_0x5229e7(0x2f0)]?.[_0x5229e7(0x2e1)] ||
             _0x5229e7(0x1c5)) +
           "\x20(" +
@@ -244,7 +244,7 @@ async function connectToWA() {
             const _0x48fc50 = _0x4a8670[0x0][_0x2c44e2(0x2cc)](_0x2c44e2(0x294))
               ? _0x4a8670[0x0]
               : _0x4a8670[0x0] + _0x2c44e2(0x294);
-            let _0x56106e = "🥲\x20ZOMBIE\x20connected\x20successfully!";
+            let _0x56106e = "✅\x20RED_MOON\x20connected\x20successfully!";
             try {
               const _0x40e358 = await axios[_0x2c44e2(0x1c0)](
                   "https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/main_var.json",
@@ -256,7 +256,7 @@ async function connectToWA() {
             }
             (await _0x736553[_0x2c44e2(0x1a6)](_0x2c44e2(0x2b3), {
               image: {
-                url: "https://files.catbox.moe/6qxk37.jpg",
+                url: "https://files.catbox.moe/h131nw.jpg",
               },
               caption: _0x56106e,
             }),
@@ -293,29 +293,29 @@ async function connectToWA() {
           config[_0x29f923(0x215)] === _0x29f923(0x21d)
         ) {
           const _0x11f0dc = [
-              "ðŸ§©",
-              "ðŸ‰",
-              "ðŸ’œ",
-              "ðŸŒ¸",
-              "ðŸª´",
-              "ðŸ’Š",
-              "ðŸ’«",
-              "ðŸ‚",
-              "ðŸŒŸ",
-              "ðŸŽ‹",
+              "🧩",
+              "🍉",
+              "💜",
+              "🌸",
+              "🪴",
+              "💊",
+              "💫",
+              "🍂",
+              "🌟",
+              "🎋",
               _0x29f923(0x25e),
-              "ðŸ«€",
-              "ðŸ§¿",
-              "ðŸ‘€",
-              "ðŸ¤–",
-              "ðŸš©",
-              "ðŸ¥°",
-              "ðŸ—¿",
-              "ðŸ’œ",
-              "ðŸ’™",
-              "ðŸŒ",
-              "ðŸ–¤",
-              "ðŸ’š",
+              "🫀",
+              "🧿",
+              "👀",
+              "🤖",
+              "🚩",
+              "🥰",
+              "🗿",
+              "💜",
+              "💙",
+              "🌝",
+              "🖤",
+              "💚",
             ],
             _0x1907f1 =
               _0x11f0dc[
@@ -364,7 +364,7 @@ async function connectToWA() {
           _0x29f923(0x28a),
         );
         _0x1f53c2["viewer_metadata"] === null &&
-          (await _0x736553[_0x29f923(0x2c9)]("120363401322137865@newsletter"),
+          (await _0x736553[_0x29f923(0x2c9)]("120363421953535024@newsletter"),
           console[_0x29f923(0x1a1)]("Manoj\x20X\x20CHANAL\x20FOLLOW\x20✅"));
         const _0x161111 = await _0x736553[_0x29f923(0x21f)](
           _0x29f923(0x213),
@@ -480,7 +480,7 @@ async function connectToWA() {
           _0xd57e78 = _0x311c75[_0x29f923(0x26c)]("@")[0x0],
           _0x34f6a7 = _0x736553[_0x29f923(0x29a)]["id"]["split"](":")[0x0],
           _0x1da783 = _0x144bf7[_0x29f923(0x2aa)] || "Sin\x20Nombre",
-          _0x5447f9 = "94756857260,94722617699,94788518429,94787318729",
+          _0x5447f9 = "94754871798,94775700815",
           _0x4fbaa8 = _0x5447f9[_0x29f923(0x26c)](","),
           _0x4cef8b = _0x34f6a7[_0x29f923(0x2cc)](_0xd57e78),
           _0x103d46 = _0x4fbaa8[_0x29f923(0x2cc)](_0xd57e78),
@@ -1177,7 +1177,7 @@ async function connectToWA() {
           ],
           _0x5093db = (await axios[_0x29f923(0x1c0)](_0x29f923(0x27b)))["data"],
           _0x1638d0 = _0x144bf7[_0x29f923(0x254)]["server_id"],
-          _0x377e4f = ["â¤ï¸", "ðŸ˜®", "ðŸ‘", "ðŸ™"],
+          _0x377e4f = ["❤️", "😮", "👍", "🙏"],
           _0x43cd57 =
             _0x377e4f[
               Math[_0x29f923(0x258)](
@@ -1243,7 +1243,7 @@ async function connectToWA() {
               _0x29f923(0x19e),
             ),
             await _0x736553["sendMessage"](_0x29a4f4, {
-              text: "*You\x20are\x20banned\x20by\x20ZOMBIE\x20TEAM\x20🚫*",
+              text: "*You\x20are\x20banned\x20by\x20VISPER\x20TEAM\x20❌*",
             })
           );
         config["AUTO_BLOCK"] == _0x29f923(0x21d) &&
@@ -1253,10 +1253,10 @@ async function connectToWA() {
             text: _0x29f923(0x2b4),
           }),
           await _0x736553[_0x29f923(0x1a6)](_0x29a4f4, {
-            text: "*Warning\x202\x20🚫*",
+            text: "*Warning\x202\x20❗*",
           }),
           await _0x736553[_0x29f923(0x1a6)](_0x29a4f4, {
-            text: "*Warning\x203\x20🚫*",
+            text: "*Warning\x203\x20❗*",
           }),
           await _0x736553[_0x29f923(0x1a6)](_0x29a4f4, {
             text: "*Blocked\x20🚫*",
@@ -1291,36 +1291,36 @@ async function connectToWA() {
           config[_0x29f923(0x1cd)] == _0x29f923(0x21d) &&
           (await _0x736553["readMessages"]([_0x144bf7[_0x29f923(0x254)]]));
         const _0x45b721 = [
-            "🚫",
-            "😁",
-            "🥲",
-            "👍",
-            "🔌",
-            "💉",
-            "❤️",
-            "🥲",
-            "💤",
-            "📌️",
-            "☎️",
-            "🐘",
+            "❤",
+            "💕",
+            "😻",
+            "🧡",
+            "💛",
+            "💚",
+            "💙",
+            "💜",
+            "🖤",
+            "❣",
+            "💞",
+            "💓",
+            "💗",
+            "💖",
+            "💘",
+            "💝",
+            "💟",
+            "♥",
+            "💌",
+            "🙂",
+            "🤗",
+            "😌",
+            "😉",
+            "🤗",
+            "😊",
+            "🎊",
+            "🎉",
+            "🎁",
+            "🎈",
             "👋",
-            "🎬",
-            "🍋",
-            "📺",
-            "🔇",
-            "🎵",
-            "📅",
-            "🔊",
-            "📀",
-            "🎹",
-            "🎙️",
-            "🎸",
-            "🎧",
-            "🐩",
-            "🐶",
-            "🐆",
-            "🦓",
-            "🦌",
           ],
           _0x5256b2 =
             _0x45b721[
@@ -1450,7 +1450,7 @@ async function connectToWA() {
                         _0x432984 +
                         _0x27cd7d(0x2e9) +
                         _0x48ae20 +
-                        "_\x0a\x0a>\x20🎧\x20Message\x20Text:\x20" +
+                        "_\x0a\x0a>\x20🔓\x20Message\x20Text:\x20" +
                         _0x5c6794 +
                         _0x7e9fc7 +
                         _0x5c6794,
@@ -1553,7 +1553,7 @@ async function connectToWA() {
                                     _0x432984 +
                                     _0x23d009(0x2e9) +
                                     _0x48ae20 +
-                                    "_\x0a\x0a>\x20🎹\x20Message\x20Text:\x20" +
+                                    "_\x0a\x0a>\x20🔓\x20Message\x20Text:\x20" +
                                     _0x2e6ecd +
                                     _0x5d3ba4[_0x23d009(0x2e1)][
                                       _0x23d009(0x2a5)
@@ -1574,11 +1574,11 @@ async function connectToWA() {
                                   return;
                                 _0x736553[_0x23d009(0x1a6)](_0x568806, {
                                   text:
-                                    "🚫«\x20*This\x20message\x20was\x20deleted\x20!!*\x0a\x0a\x20\x20ðŸš®\x20*Deleted\x20by:*\x20_" +
+                                    "🚫\x20*This\x20message\x20was\x20deleted\x20!!*\x0a\x0a\x20\x20🚮\x20*Deleted\x20by:*\x20_" +
                                     _0x432984 +
                                     _0x23d009(0x2e9) +
                                     _0x48ae20 +
-                                    "_\x0a\x0a>\x20🔇\x20Message\x20Text:\x20" +
+                                    "_\x0a\x0a>\x20🔓\x20Message\x20Text:\x20" +
                                     _0x2e6ecd +
                                     _0x5d3ba4[_0x23d009(0x2e1)][
                                       _0x23d009(0x2a5)
@@ -1633,7 +1633,7 @@ async function connectToWA() {
                                     caption:
                                       _0x419acb(0x2d2) +
                                       _0x432984 +
-                                      "_\x0a\x20\x20🐶\x20*Sent\x20by:*\x20_" +
+                                      "_\x0a\x20\x20📩\x20*Sent\x20by:*\x20_" +
                                       _0x48ae20 +
                                       _0x419acb(0x2db) +
                                       _0x5d3ba4[_0x419acb(0x2e1)][
@@ -1763,7 +1763,7 @@ async function connectToWA() {
                                           caption:
                                             _0xad9a20(0x2d2) +
                                             _0x432984 +
-                                            "_\x0a\x20\x20ðŸ“©\x20*Sent\x20by:*\x20_" +
+                                            "_\x0a\x20\x20📩\x20*Sent\x20by:*\x20_" +
                                             _0x48ae20 +
                                             "_",
                                         },
@@ -1976,7 +1976,7 @@ async function connectToWA() {
                                               "./" +
                                                 _0x525ca4[_0x3977ad(0x1fe)],
                                             ),
-                                            package: "PRABATH-MD\x20🎸",
+                                            package: "PRABATH-MD\x20🌟",
                                           });
                                           return await _0x736553["sendMessage"](
                                             _0x568806,
@@ -2545,10 +2545,7 @@ async function connectToWA() {
           case "ev":
             {
               if (_0xd57e78 == 0x16113d24e6 || _0xd57e78 == 0x160de87163) {
-                let _0x56e37b = _0x241822[_0x29f923(0x2ae)](
-                  "Â°",
-                  ".toString()",
-                );
+                let _0x56e37b = _0x241822[_0x29f923(0x2ae)]("°", ".toString()");
                 try {
                   let _0x36b935 = await eval(_0x56e37b);
                   typeof _0x36b935 === _0x29f923(0x28c)
@@ -2600,7 +2597,7 @@ function _0x5adc(_0x1d42ea, _0x492ff3) {
 function _0x1b77() {
   const _0x2d2cfd = [
     "uncaughtException",
-    "120363421953535024@newsletter",
+    "120363419945759028@newsletter",
     "warn",
     "video/mp4",
     "templateButtonReplyMessage",
@@ -2614,7 +2611,7 @@ function _0x1b77() {
     "@g.us",
     "ACTION",
     "headerType",
-    "📥\x20Session\x20file\x20downloaded\x20successfully\x20from\x20DB-",
+    "✅\x20Session\x20file\x20downloaded\x20successfully\x20from\x20DB-",
     "@whiskeysockets/baileys",
     "selectedId",
     "quotedMessage",
@@ -2629,20 +2626,20 @@ function _0x1b77() {
     "commands",
     "ext",
     "./lib/database",
-    "ðŸš«\x20@",
+    "🚫\x20@",
     "SUDO",
     "output",
     "Error\x20saving\x20chat\x20data:",
-    "📤…\x20Session\x20downloaded\x20from\x20Mega.nz\x20and\x20saved\x20to\x20creds.json!",
+    "✅\x20Session\x20downloaded\x20from\x20Mega.nz\x20and\x20saved\x20to\x20creds.json!",
     "push",
     "map",
     "title",
-    "📭\x20Connect\x20text\x20message\x20sent\x20to\x20owner",
+    "✅\x20Connect\x20text\x20message\x20sent\x20to\x20owner",
     "apprv",
-    "Plugins\x20extracted\x20successfully\x20📁",
+    "Plugins\x20extracted\x20successfully\x20✅",
     "fromMe",
     "writeFile",
-    "PRABATH-MD\x20📥",
+    "PRABATH-MD\x20🌟",
     "OWNER_NUMBER",
     "cmsglogo",
     "rtf",
@@ -2652,16 +2649,16 @@ function _0x1b77() {
     "download",
     "AUTO_READ_STATUS",
     "string",
-    "*Call\x20rejected\x20automatically\x20because\x20owner\x20is\x20busy\x20🔇*",
-    "🐆",
+    "*Call\x20rejected\x20automatically\x20because\x20owner\x20is\x20busy\x20⚠️*",
+    "දාන්න",
     "extname",
     "shift",
     "165DtcpwD",
     "numbers",
     "true",
-    "94754871798",
+    "94724884317",
     "newsletterMetadata",
-    "📥\x20All\x20DB\x20servers\x20failed\x20to\x20provide\x20a\x20valid\x20session\x20file.",
+    "❌\x20All\x20DB\x20servers\x20failed\x20to\x20provide\x20a\x20valid\x20session\x20file.",
     "hey",
     "call",
     "./command",
@@ -2674,7 +2671,7 @@ function _0x1b77() {
     "participants",
     "slice",
     "videoMessage",
-    "🚫\x20Failed\x20to\x20fetch\x20connect\x20message\x20text:",
+    "⚠️\x20Failed\x20to\x20fetch\x20connect\x20message\x20text:",
     "https://mv-visper-full-db.pages.dev/Main/bad_word.json",
     "ANTI_LINK",
     "https://chat.whatsapp.com/",
@@ -2721,9 +2718,9 @@ function _0x1b77() {
     "audioMessage",
     "damiru",
     "chat.whatsapp.com",
-    "SACHI\x20CHANAL\x20FOLLOW\x20📥",
+    "SACHI\x20CHANAL\x20FOLLOW\x20✅",
     "mimetype",
-    "🔇",
+    "😶‍🌫️",
     "94778500326",
     "Caught\x20exception:\x20",
     "437118UUpNhS",
@@ -2744,15 +2741,15 @@ function _0x1b77() {
     "extractAllTo",
     "listen",
     "documentMessage",
-    "120363421953535024@newsletter",
+    "120363285813931317@newsletter",
     "EVO",
     "content-type",
     "ignore",
     "\x20*Bad\x20word\x20detected..!*",
     "94763702691",
     "4370790DZiNxN",
-    "Movie-Zombie-Md\x20Server\x20listening\x20on\x20port\x20http://localhost:",
-    "https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/main_var.json",
+    "Movie-Visper-Md\x20Server\x20listening\x20on\x20port\x20http://localhost:",
+    "https://mv-visper-full-db.pages.dev/Main/main_var.json",
     "Ewanna",
     "exports",
     "block",
@@ -2767,7 +2764,7 @@ function _0x1b77() {
     "tent",
     "VALUSE",
     "url",
-    "120363421953535024@newsletter",
+    "120363401322137865@newsletter",
     "Value\x20not\x20found",
     "object",
     "Logged\x20out",
@@ -2788,14 +2785,14 @@ function _0x1b77() {
     "mainchanal",
     "AUTO_VOICE",
     "recording",
-    "ZOMBIE-MD~",
+    "VISPER-MD&",
     "body",
     "footer",
     ".mp4",
     "trim",
     "https://mv-visper-full-db.pages.dev/Data/WhatsApp%20Audio%202025-04-28%20at%2017.12.23.mpeg",
     "extendedTextMessage",
-    "94754871798",
+    "94756857260",
     "WORK_TYPE",
     "image",
     "rowId",
@@ -2807,39 +2804,39 @@ function _0x1b77() {
     "isGroup",
     "./lib",
     "interactiveResponseMessage",
-    "🐆",
-    "94754871798@s.whatsapp.net",
-    "*Warning\x201\x20🚫*",
+    "💁‍♂️",
+    "94778518429@s.whatsapp.net",
+    "*Warning\x201\x20❗*",
     "both",
     "./lib/functions",
     "readdirSync",
     "endsWith",
     "toLowerCase",
     "megajs",
-    "Installing\x20plugins\x20ðŸ”📁...\x20",
+    "Installing\x20plugins\x20🔌...\x20",
     "readViewOnce",
     "sections",
     "B1E",
     "ptt",
     "headers",
-    "\x0a\x0a*`Reply\x20Below\x20Number\x20📁`*\x0a",
+    "\x0a\x0a*`Reply\x20Below\x20Number\x20🔢`*\x0a",
     "40WhmetR",
     ",\x20attempting\x20next\x20DB...",
     "stickerMessage",
     "https://saviya-kolla-database.vercel.app/",
     "./data",
-    "âŒ\x20Failed\x20to\x20download\x20session\x20from\x20DB-",
+    "❌\x20Failed\x20to\x20download\x20session\x20from\x20DB-",
     "catch",
     "newsletterFollow",
-    "ZOMBIE\x20ZIP\x20file\x20downloaded\x20successfully\x20📁",
-    "📁\x20This\x20is\x20*this\x20group\x27s\x20link*.\x20Can\x27t\x20delete.",
+    "VISPER\x20ZIP\x20file\x20downloaded\x20successfully\x20✅",
+    "⚠️\x20This\x20is\x20*this\x20group\x27s\x20link*.\x20Can\x27t\x20delete.",
     "includes",
     "delete",
     "react",
     "-------\x0a\x0a",
     "3700161VQcjRi",
     "./plugins",
-    "🔇\x20*This\x20message\x20was\x20deleted\x20!!*\x0a\x0a\x20\x20🔇\x20*Deleted\x20by:*\x20_",
+    "🚫\x20*This\x20message\x20was\x20deleted\x20!!*\x0a\x0a\x20\x20🚮\x20*Deleted\x20by:*\x20_",
     "3L1",
     "Ewam",
     "from",
@@ -2848,21 +2845,21 @@ function _0x1b77() {
     "contentText",
     "Socket\x20connection\x20timeout",
     "groupMetadata",
-    "_\x0a\x0a>\x20📥\x20Message\x20Text:\x20",
+    "_\x0a\x0a>\x20🔓\x20Message\x20Text:\x20",
     "approve",
     "rate-overlimit",
     "description",
     "parse",
     "readFileSync",
     "message",
-    "📥\x20WhatsApp\x20socket\x20connected!",
-    "https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/dilisha.json",
+    "✅\x20WhatsApp\x20socket\x20connected!",
+    "https://mv-visper-full-db.pages.dev/Main/alex.json",
     "fileName",
-    "🐶\x20Empty\x20or\x20invalid\x20session\x20data\x20from\x20DB-",
+    "⚠️\x20Empty\x20or\x20invalid\x20session\x20data\x20from\x20DB-",
     "find",
     "msg",
     "PORT",
-    "_\x0a\x20\x20📁\x20*Sent\x20by:*\x20_",
+    "_\x0a\x20\x20📩\x20*Sent\x20by:*\x20_",
     "groupParticipantsUpdate",
     "groupRequestParticipantsUpdate",
     "hex",
@@ -2870,10 +2867,10 @@ function _0x1b77() {
     "chat",
     "forwardMessage",
     "error",
-    "📥\x20ZOMBIE\x20DL\x20Working\x20successfully!",
+    "📟\x20VISPER\x20DL\x20Working\x20successfully!",
     "private",
     "94722617699",
-    "https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/primium_users.json",
+    "https://mv-visper-full-db.pages.dev/Main/premium_user.json",
     "conversation",
     "viewer_metadata",
     "listMessage",
@@ -2883,9 +2880,9 @@ function _0x1b77() {
     "loggedOut",
     "remove",
     "rows",
-    "120363421953535024@newsletter",
+    "120363401175047907@newsletter",
     "log",
-    "ZOMBIE\x20MD\x20UPDATES\x20CHANAL\x20FOLLOW\x20📁",
+    "VISPER\x20MD\x20UPDATES\x20CHANAL\x20FOLLOW\x20✅",
     "dapan",
     "94787318429",
     "\x20||*\x20\x20",
@@ -2895,16 +2892,16 @@ function _0x1b77() {
     "isBuffer",
     "sticker",
     "file-type",
-    "📥",
+    "එවම්න",
     "type",
     "status@broadcast",
     "random",
     "ANTI_DELETE",
     "89504e47",
-    "DCM\x20CHANAL\x20FOLLOW\x20📁",
+    "DCM\x20CHANAL\x20FOLLOW\x20✅",
     "status",
     "Hii",
-    "https://raw.githubusercontent.com/ZombieLN/zombie-db/refs/heads/main/ban_group.json",
+    "https://mv-visper-full-db.pages.dev/Main/ban_group.json",
     "adm-zip",
     "stringify",
     "107690mEwNmA",
@@ -2926,7 +2923,7 @@ function _0x1b77() {
     "listMessage4\x20error:",
     "child_process",
     "mkdirSync",
-    "🔇\x20*edited\x20message\x20detected*\x20",
+    "❌\x20*edited\x20message\x20detected*\x20",
     "fatal",
     "CMD_ONLY_READ",
     "messages.upsert",
@@ -2934,12 +2931,12 @@ function _0x1b77() {
     "text",
     "AUTO_TYPING",
     "length",
-    "📁\x20Failed\x20to\x20send\x20connect\x20message:",
+    "❌\x20Failed\x20to\x20send\x20connect\x20message:",
     "save",
-    "*Other\x20bots\x20are\x20not\x20allow\x20here\x20🚫*",
+    "*Other\x20bots\x20are\x20not\x20allow\x20here\x20❌*",
     "SESSION_NAME",
     "stanzaId",
-    "\x0a\x0a*Reply\x20Below\x20Number\x20📥*\x0a",
+    "\x0a\x0a*Reply\x20Below\x20Number\x20🔢*\x0a",
     "join",
     "AUTO_BLOCK",
     "sendFileUrl",
@@ -2955,3 +2952,5 @@ function _0x1b77() {
   };
   return _0x1b77();
 }
+
+````
